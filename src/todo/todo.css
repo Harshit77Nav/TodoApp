@@ -1,0 +1,24 @@
+.username{
+    width: 100%;
+    height: 10vh
+}
+.todo_box{
+    display: flex;
+}
+.history_div{
+    width: 30%;
+    background-color: antiquewhite;
+    height: 80vh;
+}
+.table_div{
+    width: 70%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
